@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/96d9db0ce3.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <div id="cal-main">
+        <div class="cal-display">0</div>
+        <hr>
+        <div class="cal-key">
+            <button class="key--operator" data-action="add" value="+" >+</button>
+            <button class="key--operator" data-action="subtract" value="-">-</button>
+            <button class="key--operator" data-action="multiply" value="*">*</button>
+            <button class="key--operator" data-action="divide" value="/" >/</button>
+            <button class="num-btn" value="8" >8</button>
+            <button class="num-btn" value="7" >7</button>
+            <button class="num-btn" value="9" >9</button>
+            <button class="num-btn" value="4" >4</button>
+            <button class="num-btn" value="5" >5</button>
+            <button class="num-btn" value="6" >6</button>
+            <button class="num-btn" value="1" >1</button>
+            <button class="num-btn" value="2" >2</button>
+            <button class="num-btn" value="3" >3</button>
+            <button class="num-btn" value="0" >0</button>
+            <button class="action-btn dot" value="." data-action="decimal">.</button>
+            <button class="action-btn clear" data-action="clear">C</button>
+            <button class="key--equal action-btn" data-action="calculate">=</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>copyright © <span id="cp-date"></span> all rights reserved are by ritikshah</p>
+        <p>Made with by <a href="">RITIK SHAH</a></p>
+    </footer>
+
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous" ></script>
+<!-- js -->
+<script src="javascript/index.js"></script>    
+</body>
+</html>
